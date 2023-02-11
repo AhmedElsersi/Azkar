@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">أذكار المسلم</string>
+    <string name="morning">أذكار الصباح</string>
+    <string name="night">أذكار المساء</string>
+    <string name="times">مرات</string>
+    <string name="settings">settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share">share</string>
+    <string name="back">back</string>
+    <string name="morningNotification">تنبيه أذكار الصباح</string>
+    <string name="nightNotification">تنبيه أذكار المساء</string>
+    <string name="first_expandable">تنبيه الأذكار</string>
+    <string name="todo">TODO</string>
+</resources>

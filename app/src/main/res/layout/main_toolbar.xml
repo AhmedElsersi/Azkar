@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainAppbar"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="@color/dark_blue"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/tvAppbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ibSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@color/dark_blue"
+        android:contentDescription="@string/settings"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:src="@drawable/setting" />
+
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/azkar_nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.azkar.ui.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_morningFragment"
+            app:destination="@id/morningFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
+        <action
+            android:id="@+id/action_mainFragment_to_nightFragment"
+            app:destination="@id/nightFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
+        <action
+            android:id="@+id/action_mainFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/morningFragment"
+        android:name="com.example.azkar.ui.MorningFragment"
+        android:label="fragment_morning"
+        tools:layout="@layout/fragment_morning" />
+    <fragment
+        android:id="@+id/nightFragment"
+        android:name="com.example.azkar.ui.NightFragment"
+        android:label="fragment_night"
+        tools:layout="@layout/fragment_night" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.azkar.ui.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_settingFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <argument
+        android:name="hour"
+        android:defaultValue="0" />
+</navigation>
