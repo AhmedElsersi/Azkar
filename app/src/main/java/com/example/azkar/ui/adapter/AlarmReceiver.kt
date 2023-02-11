@@ -13,12 +13,5 @@ class AlarmReceiver:BroadcastReceiver() {
 
         val notificationUtils = NotificationUtils(context)
         notificationUtils.launchNotification(azkarType)
-//
-//         val calendar = Calendar.getInstance()
-//         if (Calendar.getInstance().after(calendar)) {
-//             calendar.add(Calendar.DAY_OF_MONTH, 1)
-//         }
-//         val alarmUtils = AlarmUtils(context)
-//         alarmUtils.initRepeatingAlarm(calendar, azkarType)
     }
 }

@@ -71,7 +71,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:visibility="gone"
+                    android:visibility="visible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -90,10 +90,10 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_weight="1"
+                            android:layout_weight="2"
                             android:backgroundTint="@color/light_blue"
                             android:contentDescription="@string/morning"
-                            android:textColor="@color/orange"
+                            android:textColor="@color/white"
                             app:cornerRadius="15dp" />
 
                         <TextView
@@ -126,10 +126,10 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_weight="1"
+                            android:layout_weight="2"
                             android:backgroundTint="@color/light_blue"
                             android:contentDescription="@string/night"
-                            android:textColor="@color/orange"
+                            android:textColor="@color/white"
                             app:cornerRadius="15dp" />
 
                         <TextView
